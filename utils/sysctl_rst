@@ -1,0 +1,4 @@
+#!/bin/bash 
+
+rm -f /etc/sysctl.d/60-swappiness.conf || true
+sysctl -w vm.swappiness=60

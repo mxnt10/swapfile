@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "vm.swappiness = $1" > /etc/sysctl.d/60-swappiness.conf
+sysctl -w vm.swappiness="$1"

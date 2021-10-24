@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Version=1.0
+GenericName=Swap File
+Name=Swap File
+Comment=Swap file manager
+Exec=swapfile
+Icon=swapfile
+Terminal=false
+Categories=Utility;Settings;DesktopSettings;LXQt;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings;X-GNOME-PersonalSettings;
+X-KDE-StartupNotify=false

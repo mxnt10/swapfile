@@ -1,0 +1,17 @@
+# ChangeLog
+All notable changes to this project will be documented in this file.
+Todas as mudanças notáveis neste projeto serão documentadas neste arquivo.
+
+
+## [ 1.0 ] - 2021-10-24 #############################################
+
+### Added / Adicionado
+    - Add install.sh
+    - Add swapfile.png and swapfile.desktop in appdata.
+    - Add clean_cache in common.
+    - Add sources in src.
+    - Add scripts in shell in utils.
+    - Include psutil in sources.
+###
+
+#####################################################################

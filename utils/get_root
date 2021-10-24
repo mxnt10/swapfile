@@ -1,0 +1,5 @@
+#!/bin/bash
+
+: "$(sudo -S -k <<< "$1" whoami 2> /dev/null)"
+
+[ "${_##*: }" == "root" ] && exit 0 || exit 1
