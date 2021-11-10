@@ -124,11 +124,13 @@ def options(main):
     b_reset.grid(row=2, column=1, padx=(2, 10), pady=5)
 
     op_app.bind("<Unmap>", on_unmap)  # For not minimize configuration window
+    op_app.wait_visibility(op_app)
+    op_app.attributes('-alpha', 0.85)
     op_app.mainloop()
 
 
 # About application
 def about(main):
-    msgbox.message(main, 'About', 'SwapFile v1.0 - Swap file manager\n\n'
+    msgbox.message(main, 'About', 'SwapFile v1.1 - Swap file manager\n\n'
                                   'Maintainer: Mauricio Ferrari\n'
                                   'Contact: m10ferrari1200@gmail.com\n')

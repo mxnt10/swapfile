@@ -1,15 +1,18 @@
 #!/bin/bash
 
-pkgver='1.0'
+pkgver='1.1'
 install_root=${install_root:-""}
 
 set -e
 # shellcheck disable=SC2015
-[ "$install_root" != "" ] && mkdir -p "$install_root"/usr/{bin,share/{applications,pixmaps,swapfile/utils},doc/swapfile-"$pkgver"} || mkdir -p /usr/{share/swapfile/utils,doc/swapfile-"$pkgver"}
+[ "$install_root" != "" ] && {
+  mkdir -p "$install_root"/usr/{bin,share/{applications,pixmaps,swapfile/utils},doc/swapfile-"$pkgver"}
+} || {
+  mkdir -p /usr/{share/swapfile/utils,doc/swapfile-"$pkgver"}
+}
 
 install -Dm 0644 appdata/swapfile.png "$install_root"/usr/share/pixmaps
 install -Dm 0644 appdata/swapfile.desktop "$install_root"/usr/share/applications
-
 install -Dm 0755 utils/* "$install_root"/usr/share/swapfile/utils
 
 cp -a ChangeLog LICENSE README.md "$install_root"/usr/doc/swapfile-"$pkgver"
