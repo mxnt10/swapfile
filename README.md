@@ -6,11 +6,11 @@
 
 Program created with the objective of assisting in the configuration of swap file in Distributions such as Slackware.
 
-### Required packages:
+### Required packages
 
 - python >= 3.6
 
-### Installation instructions:
+### Installation instructions
 
 To install "Swap File" , use the following commands:
 ```sh
