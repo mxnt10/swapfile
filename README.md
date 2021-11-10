@@ -1,13 +1,13 @@
 # Swap File
 
+![swapfile](https://github.com/mxnt10/swapfile/raw/master/common/img_swapfile.png)
+
 Program created with the objective of assisting in the configuration of swap file<br>
 in Distributions such as Slackware.
-<br><br>
 
 ### Required packages:
 
 - python >= 3.6
-<br><br>
 
 ### Installation instructions:
 
