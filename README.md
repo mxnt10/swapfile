@@ -1,6 +1,6 @@
 <h1 align="center">
     Swap File
-    <br>
+    <br><br>
     <a><img src="https://github.com/mxnt10/swapfile/raw/master/common/img_swapfile.png"></a>
 </h1>
 
