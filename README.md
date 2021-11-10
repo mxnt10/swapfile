@@ -4,8 +4,7 @@
     <a><img src="https://github.com/mxnt10/swapfile/raw/master/common/img_swapfile.png"></a>
 </h1>
 
-Program created with the objective of assisting in the configuration of swap file<br>
-in Distributions such as Slackware.
+Program created with the objective of assisting in the configuration of swap file in Distributions such as Slackware.
 
 ### Required packages:
 
